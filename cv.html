@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Sendi Nauli Syahputra Siregar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-row">
+    <a href="index.html" class="brand">Sendi Siregar</a>
+    <nav class="navlinks" id="navlinks">
+      <a href="log.html">Log</a>
+      <a href="projects.html">Projects</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#links">Links</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Ganti tema">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" id="themeIcon"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="burger" id="burger" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <div class="page-head">
+      <div class="kicker">Curriculum Vitae</div>
+      <h2>Ringkasan Profil</h2>
+      <p>bagian bertanda oranye perlu kamu isi sendiri</p>
+    </div>
+
+    <div class="cv-panel">
+      <div class="cv-top">
+        <div>
+          <div class="cv-name">Sendi Nauli Syahputra Siregar</div>
+          <div class="cv-role">IT Support · Web Developer · Networking · System Engineer</div>
+        </div>
+        <div class="cv-contact">
+          nama@email.com<span class="placeholder-tag">isi</span><br>
+          +62 xxx-xxxx-xxxx<span class="placeholder-tag">isi</span><br>
+          Indonesia
+        </div>
+      </div>
+
+      <div class="cv-block">
+        <h4>Ringkasan</h4>
+        <p style="color:var(--text-dim); font-size:14px; max-width:600px;">
+          Profesional IT dengan minat lintas bidang — dukungan teknis, pengembangan web, jaringan, dan administrasi sistem.
+          Terbiasa menangani masalah dari sisi perangkat keras, perangkat lunak, hingga infrastruktur jaringan.
+          <span class="placeholder-tag">sesuaikan ringkasan ini</span>
+        </p>
+      </div>
+
+      <div class="cv-block">
+        <h4>Keahlian</h4>
+        <div class="cv-skills">
+          <div class="skill-group">
+            <b>IT Support</b>
+            <ul>
+              <li>Troubleshooting hardware &amp; software</li>
+              <li>Helpdesk &amp; sistem tiket</li>
+              <li>Instalasi &amp; konfigurasi perangkat</li>
+              <li>Dukungan teknis end-user</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <b>Web Development</b>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>PHP &amp; database (MySQL)</li>
+              <li>Desain responsif</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <b>Networking</b>
+            <ul>
+              <li>TCP/IP, LAN/WAN</li>
+              <li>Konfigurasi Router/Switch (Mikrotik/Cisco)</li>
+              <li>Troubleshooting jaringan &amp; Wi-Fi</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <b>System Engineer</b>
+            <ul>
+              <li>Windows Server &amp; Active Directory</li>
+              <li>Administrasi Linux dasar</li>
+              <li>Backup &amp; maintenance sistem</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-block">
+        <h4>Pengalaman Kerja <span class="placeholder-tag">isi data asli</span></h4>
+        <div class="cv-item">
+          <div class="row">
+            <div class="pos">[Posisi] — [Nama Perusahaan]</div>
+            <div class="yr">[Bulan Tahun] – [Bulan Tahun]</div>
+          </div>
+          <p>Deskripsikan tanggung jawab dan pencapaian utama di posisi ini.</p>
+        </div>
+        <div class="cv-item">
+          <div class="row">
+            <div class="pos">[Posisi] — [Nama Perusahaan]</div>
+            <div class="yr">[Bulan Tahun] – [Bulan Tahun]</div>
+          </div>
+          <p>Deskripsikan tanggung jawab dan pencapaian utama di posisi ini.</p>
+        </div>
+      </div>
+
+      <div class="cv-block">
+        <h4>Pendidikan <span class="placeholder-tag">isi data asli</span></h4>
+        <div class="cv-item">
+          <div class="row">
+            <div class="pos">[Nama Institusi / Jurusan]</div>
+            <div class="yr">[Tahun] – [Tahun]</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-block">
+        <h4>Sertifikasi <span class="placeholder-tag">opsional</span></h4>
+        <div class="cv-item">
+          <div class="row">
+            <div class="pos">[Nama Sertifikasi]</div>
+            <div class="yr">[Tahun]</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cv-actions">
+        <button class="btn btn-primary" onclick="window.print()">↓ Simpan sebagai PDF</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="year"></span> Sendi Nauli Syahputra Siregar
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
